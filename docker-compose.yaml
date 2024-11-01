@@ -1,0 +1,8 @@
+services:
+  flutter-web:
+    hostname: frontend
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
